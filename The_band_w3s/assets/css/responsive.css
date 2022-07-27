@@ -1,0 +1,94 @@
+/* Mobile */
+@media (max-width: 740px) {
+    .mobile-full-width,
+    .mobile-col-full {
+        width: 100%;
+    } 
+
+    .margin-top-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li,
+    #nav li a {
+        display: block;
+        
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    #header .mobile-menu-btn:hover {
+
+        background-color: #ccc;
+    }
+
+    #header .ti-menu {
+        font-size: 16px;
+        color: white;
+        line-height: 46.5px;
+        padding: 0 22px;
+    }
+
+    #header .mobile-menu-btn:hover .ti-menu {
+        color: #000;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav li:hover {
+        color: #000;
+        background-color: #ccc;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 70%;
+        margin-bottom: 16px;
+    }
+
+    #content .member-name {
+        margin: 15px;
+    }
+
+    .places-list .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .contact-info {
+        margin-bottom: 16px;
+    }
+}
